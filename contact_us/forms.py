@@ -17,7 +17,7 @@ class Contact_Us_Modelform(forms.ModelForm):
         labels = {
             "user_name": "Your Name",
             "email": "Your Email",
-        },
+        }
         error_messages = {
             "user_name":{
                 "required":"Please enter your name",
