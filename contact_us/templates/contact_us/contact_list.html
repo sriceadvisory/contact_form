@@ -1,0 +1,13 @@
+{% extends 'contact_us/base.html' %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for contact in contact_list %}
+            <li>{{ Contact_Us.user_name }} (email: {{ Contact_Us.email}})</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
